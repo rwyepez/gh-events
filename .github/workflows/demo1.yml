@@ -6,8 +6,10 @@ on:
   push:
     branches:
       - main
-      - 'dev*'
+      # - 'dev*'
       - 'feat/**'
+    paths:
+      - 'src/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
