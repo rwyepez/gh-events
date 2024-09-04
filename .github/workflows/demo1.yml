@@ -9,7 +9,7 @@ on:
       - 'dev*'
       - 'feat/**'
     paths:
-      - 'src/*'
+      - 'src/**'
 jobs:
   deploy:
     runs-on: ubuntu-latest
