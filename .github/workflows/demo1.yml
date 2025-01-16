@@ -9,7 +9,7 @@ on:
       - 'dev*'
       - 'feat/**'
     paths:
-      - 'src/**'
+      - 'src/**' ## ** doble allow to discover changes in files with more than one src/components/ slashes 
 jobs:
   deploy:
     runs-on: ubuntu-latest
